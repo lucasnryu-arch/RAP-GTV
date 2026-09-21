@@ -1,0 +1,14 @@
+{
+  "site": "xiongba",
+  "display_name": "Xiongba",
+  "n_points": 35711,
+  "n_epochs": 195,
+  "k_star": 6,
+  "k_s": 16,
+  "lambda": 6.4,
+  "fi_k_eval": 8,
+  "seeds": [0, 1, 2, 3, 4],
+  "deformation_observable": "horizontal_downslope",
+  "solver": {"device": "cuda", "max_iters": 8000000, "tolerance": 1e-6},
+  "clustering": {"n_init": 20, "max_iter": 300}
+}

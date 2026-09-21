@@ -1,0 +1,16 @@
+{
+  "split_fractions": [0.6, 0.2, 0.2],
+  "k_candidates": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "rap_gtv_grid": {
+    "k_s": [2, 4, 6, 8, 10, 12, 16, 20, 24],
+    "lambda": [0.0125, 0.025, 0.05, 0.1, 0.2, 0.4, 0.8, 1.6, 3.2, 6.4]
+  },
+  "selector": {
+    "primary": "mean_validation_FDD",
+    "noninferiority_margin": 0.05,
+    "secondary": "mean_validation_FI",
+    "tie_breaks": ["lower_FI", "lower_FDD", "simpler", "stable_order"]
+  },
+  "fi": {"graph": "coordinate_only_symmetric_knn", "k_eval": 8},
+  "seed_schedule": [0, 1, 2, 3, 4]
+}

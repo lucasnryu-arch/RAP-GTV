@@ -1,0 +1,19 @@
+name: rapgtv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24,<3
+  - scipy>=1.10,<2
+  - pandas>=2.0,<3
+  - matplotlib>=3.8
+  - geopandas>=0.14
+  - pyproj>=3.5
+  - rasterio>=1.3
+  - xarray>=2024.1,<2025.2
+  - h5py>=3.10
+  - h5netcdf>=1.3
+  - pip
+  - pytest>=8
+  - pip:
+      - tsfresh==0.21.1
