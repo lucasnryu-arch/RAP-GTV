@@ -146,6 +146,8 @@ The repository provides the computational pipeline, experiment settings, evaluat
 
 Software citation metadata are provided in `CITATION.cff`. Manuscript citation information will be updated after publication; no paper or archival DOI is currently asserted.
 
-## License and third-party software
+## License
 
-The authors have not yet selected a project license. Until a license is added, no open-source license grant is implied and the repository is not ready for public release. Third-party provenance and redistribution decisions are documented in `docs/third_party.md`.
+This repository is released under the MIT License. See `LICENSE` for details.
+
+Third-party provenance and redistribution decisions are documented in `docs/third_party.md`.
