@@ -1,0 +1,17 @@
+{
+  "n": 400,
+  "grid_side": 20,
+  "latent_dimension": 3,
+  "within_regime_amplitude": 0.15,
+  "sigma_good": 0.05,
+  "low_quality_fraction": 0.25,
+  "H_levels": [1, 4, 8, 16],
+  "eta_T_levels": [0, 1, 2],
+  "eta_O_levels": [0, 1, 2],
+  "J_levels": [0.5, 1.0, 2.0, 4.0],
+  "q_O": 0.8,
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+  "k_s": 8,
+  "lambda": 0.2,
+  "solver": {"device": "cpu", "max_iters": 5000, "tolerance": 1e-7}
+}

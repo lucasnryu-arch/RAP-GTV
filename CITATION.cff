@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and this repository."
+title: "RAP-GTV"
+type: software
+version: 0.9.0
+authors:
+  - family-names: Lu
+    given-names: Shuo
+  - family-names: He
+    given-names: Hui
+repository-code: "https://github.com/lucasnryu-arch/RAP-GTV"
+abstract: "Reliability-Aware Physical Graph Total Variation for landslide deformation zoning."
+keywords:
+  - InSAR
+  - landslide
+  - remote sensing
+  - graph total variation

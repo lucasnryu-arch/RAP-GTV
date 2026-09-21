@@ -1,0 +1,14 @@
+{
+  "site": "offida",
+  "display_name": "Offida",
+  "n_points": 399,
+  "n_epochs": 234,
+  "k_star": 5,
+  "k_s": 12,
+  "lambda": 6.4,
+  "fi_k_eval": 8,
+  "seeds": [0, 1, 2, 3, 4],
+  "deformation_observable": "descending_los",
+  "solver": {"device": "cuda", "max_iters": 8000000, "tolerance": 1e-6},
+  "clustering": {"n_init": 20, "max_iter": 300}
+}
